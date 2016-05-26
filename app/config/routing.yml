@@ -1,0 +1,25 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+# API Auto-doc
+nelmio_api_doc_index:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
+
+pokemon_rest_default:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestDefaultController
+
+# API Auto-doc
+nelmio_api_doc_index:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
+
+pokemon_rest_default:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestDefaultController
+pokemon_rest_default:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestDefaultController
+

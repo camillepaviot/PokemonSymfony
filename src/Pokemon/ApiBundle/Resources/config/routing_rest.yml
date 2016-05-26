@@ -1,0 +1,5 @@
+
+pokemon_rest_sync:
+    type:     rest
+    resource: Pokemon\ApiBundle\Controller\RestSyncGlobalController
+    prefix: sync
